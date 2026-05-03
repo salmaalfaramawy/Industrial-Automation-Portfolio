@@ -10,6 +10,7 @@ ____
 ## Projects and Details
 
 **Pump Control System with HOA Modes and Fault Protection:**
+
 This program controls a pump. The pump has 3 modes: hand, off, and auto.
 When the hand button is pushed, the pump enters hand mode and runs, but stops running when the button is released.
 When the auto button is pushed, the pump enters auto-mode and runs for 30 seconds, then stops for 10 seconds. The pump keeps cycling this way when the it is in auto-mode. 
