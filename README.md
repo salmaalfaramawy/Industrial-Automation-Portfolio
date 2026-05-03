@@ -9,7 +9,7 @@ ____
 
 ## Projects and Details
 
-**Pump Control System with HOA Modes and Fault Protection:**
+Pump Control System with HOA Modes and Fault Protection:
 
 This program controls a pump. The pump has 3 modes: hand, off, and auto.
 When the hand button is pushed, the pump enters hand mode and runs, but stops running when the button is released.
@@ -18,7 +18,7 @@ The pump is off when in off mode.
 If no flow is detected, the flow switch does not close. If the flow switch does not close within 5 seconds, the flow alarm and notification turn on, and the flow fault indicator is switched on.
 If the pressure exceeds 30 psi for 5 seconds, the pressure alarm and notification turn on, and the pressure fault indicator is switched on.
 
-**Servo Control for Automated Valve Sequencing:**
+### Servo Control for Automated Valve Sequencing:
 
 This program was written to control a servo.
 When the cycle call bit activates, the servo cycles a control valve from the home switch to the fill switch (where it will stay for 10 seconds), then to the drain switch (where it will stay for 20 seconds), then to the flush switch (where it will stay for 10 seconds), then back to the home switch. 
@@ -26,7 +26,7 @@ The servo de-energizes when the home switch is reached, but energizes again when
 A cycle terminates when the flush cycle ends or when the reset button is hit. When the cycle terminates, the servo remains energized and moves till it reaches the home position, where it deactivates again. 
 
 
-**PLC Automated Sensor Calibration:**
+### PLC Automated Sensor Calibration:
 
 This program was written to record inputs recorded by an Oxygen (O2) sensor.
 When the calibration button is pressed, a calibration cycle begins where a gas valve with 0% oxygen opens for 30 seconds. The readings taken by the
@@ -37,7 +37,7 @@ When the 30% valve is closed, the calibration cycle ends.
 
 
 
-**Color Detection and Automated Box Filling Convetor System:**
+### Color Detection and Automated Box Filling Convetor System:
 
 This program controls a conveyor belt with boxes that have colored (red or blue) labels on them.
 A red and blue photo eye detect the colors of the labels on the box (red photo eye detects red, blue photo eye detects blue). 
