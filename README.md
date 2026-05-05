@@ -1,5 +1,5 @@
 # Industrial-Automation-Portfolio
-A collection of RSLogix 500 ladder logic projects and HMI/SCADA interfaces (Ignition &amp; Wonderware) for manufacturing and process control.
+A collection of RSLogix 500 ladder logic projects and HMI/SCADA interfaces (Ignition and Wonderware) for manufacturing and process control.
 These projects were created as part of the PLC Dojo PLC courses (Part 2 and 3).
 
 **Note:** Each file contains PDF reports for the code for those who do not have RSLogix 500 installed. 
