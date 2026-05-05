@@ -9,6 +9,17 @@ ____
 
 ## Projects and Details
 
+### Automated Water Storage & Filtration Control System
+
+This PLC program controls a water filtration and storage system with automated backwash to clear the filter. 
+A pump draws water from a water source. The pump is active while the water level in the tank is below the "High Water Level" setpoint. It deactivates when it reaches this setpoint, and the discharge valve is energized to let the water flow out of the tank to where it is to be supplied. The pump activates again when the water level has reached the "Low Water Level" setpoint. 
+Six valves control the direction that the water flows in. For normal flow, valves SV1, SVSV3, and SV5 are open, allowing water to flow to the tank to fill it. When it is time for a backwash cycle, valves SV2, SV4, and SV6 are open, which directs the flow backward, which dislodges the impurities present in the filter.
+The backwash  cycle is automatically triggered once the differential pressure in the filter reaches the setpoint specified. 
+An hour meter records system runtime and the number of backwash cycles is also recorded. These two can be reset using the Backwash Count and Runtime reset buttons. 
+All of the valves and the pump have HOA (hand-off-auto) controls. 
+There are High-High and Low-Low Tank Level alarms and notifications, as well as a High Filter Pressure and a Low Flow alarm and notification. All of these will be triggered on reaching the setpoints specified for them. The alarms and notifications are reset with the "Alarm Reset" button, and the notifications are silenced with the "Alarm Silence" button. 
+
+
 ### Pump Control System with HOA Modes and Fault Protection:
 
 This program controls a pump. The pump has 3 modes: hand, off, and auto.
