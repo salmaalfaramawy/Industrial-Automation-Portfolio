@@ -13,7 +13,7 @@ ____
 
 This PLC program controls a water filtration and storage system with automated backwash to clear the filter. 
 A pump draws water from a water source. The pump is active while the water level in the tank is below the "High Water Level" setpoint. It deactivates when it reaches this setpoint, and the discharge valve is energized to let the water flow out of the tank to where it is to be supplied. The pump activates again when the water level has reached the "Low Water Level" setpoint. 
-Six valves control the direction that the water flows in. For normal flow, valves SV1, SVSV3, and SV5 are open, allowing water to flow to the tank to fill it. When it is time for a backwash cycle, valves SV2, SV4, and SV6 are open, which directs the flow backward, which dislodges the impurities present in the filter.
+Six valves control the direction that the water flows in. For normal flow, valves SV1, SV3, and SV5 are open, allowing water to flow to the tank to fill it. When it is time for a backwash cycle, valves SV2, SV4, and SV6 are open, which directs the flow backward, which dislodges the impurities present in the filter.
 The backwash  cycle is automatically triggered once the differential pressure in the filter reaches the setpoint specified. 
 An hour meter records system runtime and the number of backwash cycles is also recorded. These two can be reset using the Backwash Count and Runtime reset buttons. 
 All of the valves and the pump have HOA (hand-off-auto) controls. 
