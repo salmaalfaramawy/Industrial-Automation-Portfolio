@@ -19,6 +19,7 @@ An hour meter records system runtime and the number of backwash cycles is also r
 All of the valves and the pump have HOA (hand-off-auto) controls. 
 There are High-High and Low-Low Tank Level alarms and notifications, as well as a High Filter Pressure and a Low Flow alarm and notification. All of these will be triggered on reaching the setpoints specified for them. The alarms and notifications are reset with the "Alarm Reset" button, and the notifications are silenced with the "Alarm Silence" button. 
 
+[Ladder Logic](https://github.com/salmaalfaramawy/Industrial-Automation-Portfolio/tree/main/Automated%20Water%20Storage%20%26%20Filtration%20Control%20System/Logic) 
 
 ### Pump Control System with HOA Modes and Fault Protection:
 
