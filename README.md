@@ -6,10 +6,15 @@ These projects were created as part of the PLC Dojo PLC courses (Part 2 and 3).
 
 ____
 
+## Table of Contents
 
-## Projects and Details
+\* [Project Descriptions](#projects-and-details)
 
-### Automated Water Storage & Filtration Control System:
+___
+
+## Projects Details
+
+**Automated Water Storage & Filtration Control System:**
 
 This PLC program controls a water filtration and storage system with automated backwash to clear the filter. 
 A pump draws water from a water source. The pump is active while the water level in the tank is below the "High Water Level" setpoint. It deactivates when it reaches this setpoint, and the discharge valve is energized to let the water flow out of the tank to where it is to be supplied. The pump activates again when the water level has reached the "Low Water Level" setpoint. 
