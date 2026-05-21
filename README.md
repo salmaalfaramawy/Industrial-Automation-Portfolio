@@ -8,7 +8,7 @@ ____
 
 ## Table of Contents
 
-\* [Project Descriptions](#projects-and-details)
+\+ [Project Descriptions](#projects-and-details)
 
 ___
 
