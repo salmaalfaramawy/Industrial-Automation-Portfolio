@@ -8,13 +8,24 @@ ____
 
 ## Table of Contents
 
-\+ [Project Descriptions](#projects-and-details)
+\• [Project Descriptions](#project-descriptions)
+\• [HMI](#hmi)
+\• [Ladder Logic](#ladder-logic)
+
+
+
+
+## HMI 
+
+[<img width="627" height="350" alt="image" src="https://github.com/user-attachments/assets/063b2da1-fa0c-4de9-b39a-f1d31dd77099" />](https://1drv.ms/p/c/b2bdba5626bc80f9/IQCTsXJDD0KSSbI3k39wCoNcAQ6AjV1K5b7hDlSZADVPu5M?e=Sf2ehH)
+
+
 
 ___
 
-## Projects Details
+## Projects Descriptions
 
-**Automated Water Storage & Filtration Control System:**
+### Automated Water Storage & Filtration Control System:
 
 This PLC program controls a water filtration and storage system with automated backwash to clear the filter. 
 A pump draws water from a water source. The pump is active while the water level in the tank is below the "High Water Level" setpoint. It deactivates when it reaches this setpoint, and the discharge valve is energized to let the water flow out of the tank to where it is to be supplied. The pump activates again when the water level has reached the "Low Water Level" setpoint. 
@@ -64,3 +75,8 @@ The conveyor belt is de-energized (stops moving) while the boxes are filling up.
 A level switch detects whether the box is full. When it detects a full box, the conveyor belt starts moving again. 
 
 
+## HMI
+
+
+
+## Ladder Logic
